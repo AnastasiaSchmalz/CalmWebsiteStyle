@@ -43,10 +43,9 @@ h2 {
   position: absolute;
   padding: 1em;
   width: 30%;
-  transform: translate(30%, 100%);
   z-index: 2;
-  top: 90%;
-  left: 10%;
+  margin-right: 40em;
+  margin-top: 60em;
 }
 
 .article1 p,
@@ -67,9 +66,9 @@ h2 {
 .first_img img{
   padding: 0;
   margin: 0;
+  float: right;
   width: 50%;
   height: auto;
   z-index: 1;
   display: inline-block;
-  transform: translate(75%, -50%);
 }
