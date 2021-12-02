@@ -71,5 +71,5 @@ h2 {
   height: auto;
   z-index: 1;
   display: inline-block;
-  transform: translate(50%, -100%);
+  transform: translate(75%, -75%);
 }
