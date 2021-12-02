@@ -71,9 +71,9 @@ h2 {
   position: flex;
   display: inline-block;
   padding: 0;
-  margin-right: 4em;
+  margin: 0;
   float: right;
-  width: 40%;
+  width: 20%;
   height: auto;
   z-index: 1;
 }
