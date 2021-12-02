@@ -41,7 +41,7 @@ h2 {
   margin-left: 4em;
   padding: 1em;
   z-index: 2;
-  top: 90%;
+  bottom: 10%;
   left: 10%;
 }
 
@@ -65,8 +65,9 @@ h2 {
 
 .first_img img{
   display: inline;
-  padding: 0;
+  padding: 1em;
   margin-top: 1em;
+  margin-right: 1em;
   float: right;
   width: 40%;
   height: auto;
