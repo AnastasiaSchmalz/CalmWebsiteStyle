@@ -28,13 +28,15 @@ h2 {
   line-height: 1.5em;
 }
 
+.front {
+  display: inline-block;
+  position: flex;
+  padding: 2em;
+
 .front,
 .article1 {
-  position: flex;
   margin-top: 1em;
-  padding: 2em;
   width: 50%;
-  display: inline-block;
 }
 .article1 {
   position: absoulte;
@@ -42,7 +44,7 @@ h2 {
   margin-left: 4em;
   padding: 1em;
   z-index: 2;
-  bottom: 30%;
+  bottom: 10%;
   left: 10%;
 }
 
@@ -65,8 +67,9 @@ h2 {
 }
 
 .first_img img{
+  position: flex;
   display: inline-block;
-  padding: 1em;
+  padding: 0;
   margin-top: 1em;
   margin-right: 4em;;
   float: right;
