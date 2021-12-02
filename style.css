@@ -67,9 +67,8 @@ h2 {
 .first_img img{
   padding: 0;
   margin: 0;
-  float: right;
   width: 50%;
   height: auto;
   z-index: 1;
-  display: inline;
+  display: inline-block;
 }
