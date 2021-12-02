@@ -37,10 +37,12 @@ h2 {
   display: inline-block;
 }
 .article1 {
-  position: flex;
+  position: absoulte;
   margin-left: 4em;
   padding: 1em;
   z-index: 2;
+  top: 90%;
+  left: 10%;
 }
 
 .article1 p {
