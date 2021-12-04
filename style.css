@@ -53,7 +53,7 @@ h2 {
 
 .article1 p,
 .article h2 {
-  width: 60%;
+  width: 40%;
 }
 
 
@@ -65,7 +65,7 @@ h2 {
   border-radius: 20px;
 }
 
-.first_img img{
+img{
   margin-top: 1em;
   width: 40 %;
   height: auto;
