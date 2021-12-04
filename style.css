@@ -8,13 +8,11 @@
 ul {
   list-style-type: none;
   float: right;
-  position: sticky;
 }
 
 li {
   float: left;
   padding: 1em;
-  font-weight: bold;
 }
 
 h1 {
@@ -30,28 +28,37 @@ h2 {
   line-height: 1.5em;
 }
 
+.first_container {
+  display: table;
+  width: 100%;
+}
+
 .front,
 .article1 {
   position: flex;
   margin-top: 1em;
   padding: 2em;
-  width: 40%;
-  display: inline-block;
+  width: 50%;
+  display: table-cell;
 }
-
 .article1 {
   position: absolute;
   padding: 1em;
   width: 30%;
+  transform: translate(20%, 90%);
   z-index: 2;
-  left: 80%;
+  top: 90%;
+  left: 10%;
+}
+
+.article1 p {
+  width: 60%;
 }
 
 .article1 p,
 .article1 h2 {
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 60%;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .article1,
@@ -62,15 +69,14 @@ h2 {
   border-radius: 20px;
 }
 
-.first_img {
-  display: inline-block;
-}
-
 .first_img img{
   padding: 0;
-  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
   float: right;
-  width: 50%;
+  width: 40 %;
   height: auto;
   z-index: 1;
+  display: inline;
 }
