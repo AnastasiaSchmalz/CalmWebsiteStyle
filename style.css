@@ -51,15 +51,11 @@ h2 {
   left: 10%;
 }
 
-.article1 p {
+.article1 p,
+.article h2 {
   width: 60%;
 }
 
-.article1 p,
-.article1 h2 {
-  padding-left: 2em;
-  padding-right: 2em;
-}
 
 .article1,
 .article1 article,
@@ -70,13 +66,9 @@ h2 {
 }
 
 .first_img img{
-  padding: 0;
-  margin-left: 0;
-  margin-right: 0;
   margin-top: 1em;
-  float: right;
   width: 40 %;
   height: auto;
   z-index: 1;
-  display: inline;
+  display: table-cell;
 }
